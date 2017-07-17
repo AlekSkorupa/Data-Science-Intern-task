@@ -5,41 +5,49 @@
 Repository contains 3 Jupyter notebooks with analysis of Cifar10 images:
 
 1. PART I - Shallow classifier
-	Where I train initial classifier on the visual features extracted using "standard" image processing methods. 
+
+Here, I train the initial shallow classifier on the visual features extracted using "standard" image processing methods. 
 
 2. PART II - CNN Visualisation
-	Where I load and visualise CNN (incepcion v3 max pool 0:3) codes.
+
+Here, I load and visualise CNN codes (from inception v3 max pool 0:3).
 
 3. PART III - Final learning
-	Wher I train the final classifier.
+
+I train the final classifier on the CNN codes.
 
 There are also 5 Python classes used during a project:
 
 1. downloadANDload.py
-	For downloading, extracting and loading Cifar10 images and features.
+
+For downloading, extracting and loading Cifar10 images and features.
 
 2. feature_extraction.py
-	For extracting visual features using image processing methods.
+
+For extracting visual features using image processing methods.
 
 3. plot_functions.py
-	For useful plotting functions.
+
+For useful plotting functions.
 
 additionally, 
 
 4. cifar-10_experiment.py
-	For setting up CNN extraction.
+
+For setting up CNN extraction.
 
 5. classify_image.py
-	For running feature extraction from the Incepcion v3 pretrained model. Official Tensorflow tutorial script.
 
-###################################################################################################################
+For running feature extraction from the Inception v3 pretrained model. Official Tensorflow tutorial script.
+
+########################################################################################
 
 ### Results
 
 Maximum accuracy achieved on the test data: 0.91
 compare it to http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html
 
-###################################################################################################################
+#########################################################################################
 
 ### Author
 
