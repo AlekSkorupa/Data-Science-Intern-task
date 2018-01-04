@@ -51,4 +51,4 @@ compare it to http://rodrigob.github.io/are_we_there_yet/build/classification_da
 
 ### Author
 
-ekol47, Jul, 2017
+AlekSkorupa, Jul, 2017
